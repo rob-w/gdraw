@@ -8,10 +8,7 @@ INCLUDES = \
 bin_PROGRAMS = gdraw
 
 gdraw_SOURCES = \
-	main.c \
-	support.c support.h \
-	interface.c interface.h \
-	callbacks.c callbacks.h
+	main.c
 
 gdraw_LDADD = @PACKAGE_LIBS@ $(INTLLIBS)
 
