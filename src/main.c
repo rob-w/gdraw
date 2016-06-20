@@ -138,7 +138,7 @@ int main( int   argc,
   /* Create the drawing area */
 
   drawing_area = gtk_drawing_area_new ();
-  gtk_widget_set_size_request (GTK_WIDGET (drawing_area), 800, 460);
+  gtk_widget_set_size_request (GTK_WIDGET (drawing_area), 1024, 580);
   gtk_box_pack_start (GTK_BOX (vbox), drawing_area, TRUE, TRUE, 0);
 
   gtk_widget_show (drawing_area);
